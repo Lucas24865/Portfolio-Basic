@@ -1,0 +1,168 @@
+/* Animations */
+
+/* Scroll */
+.scroll-smooth {
+  scroll-behavior: smooth !important;
+}
+/* End Scroll */
+
+.hiddenAnimation {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+/* End Animations */
+/* Style */
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: #0B1522;
+}
+
+.containerDivisions {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  scroll-snap-type: both mandatory;
+  overflow: scroll;
+}
+
+section {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  color: #ffffff;
+}
+.fit-content{
+  height: -webkit-fill-available;
+}
+/* Scroll Style */
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 00px;
+  background-color: #000000;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(120, 119, 119);
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* End Scroll Style */
+
+/* Background Colors */
+.aboutMe {
+  background-color: rgb(11,21,34, 80%);
+}
+.studies {
+  background-color: rgb(14,23,8, 80%);
+}
+
+.work {
+  background-color: rgb(23,8,23, 80%);
+}
+
+.languages {
+  background-color: rgb(31,17,10, 80%);
+}
+
+.blurred-border-a-s  {
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(11,21,34,0.4) 50%, rgba(14,23,8,0.4) 50%, rgba(0,0,0,0) 100%);
+}
+.blurred-border-l-w  {
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(31,17,10,0.4) 50%, rgba(23,8,23,0.4) 50%, rgba(0,0,0,0) 100%);
+}
+.blurred-border-a-l  {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(31,17,10,0.4) 50%, rgba(11,21,34,0.4) 50%, rgba(0,0,0,0) 100%);
+}
+.blurred-border-s-w  {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(23,8,23,0.4) 50%, rgba(14,23,8,0.4) 50%, rgba(0,0,0,0) 100%);
+}
+
+.blurred-border-position-y{
+  min-width: 100vw;
+  min-height: 100px;
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  z-index: 100;
+}
+.blurred-border-position-x{
+  min-width: 100px;
+  min-height: 100vh;
+  position: relative;
+  margin-left: -50px;
+  margin-right: -50px;
+  z-index: 100;
+}
+.mt-100{
+  margin-top: 100vh;
+}
+/* End Background Colors */
+
+/* Arrow */
+.triangle{
+  border-right: 3px solid #ffffff; 
+  border-bottom: 3px solid #ffffff;
+  height: 20px;
+  width: 20px;
+}
+.right-rotate {
+  transform: rotate(-45deg);
+}
+.left-rotate {
+  transform: rotate(135deg);
+}
+.up-rotate {
+  transform: rotate(-135deg);
+}
+.down-rotate {
+  transform: rotate(45deg);
+}
+.down-mid{
+  position: relative;
+  margin-left: -50px;
+  margin-right: -50px;
+  z-index: 100;
+}
+.m-top-arrow{
+  margin-top: 39px;
+}
+.m-down-arrow{
+  margin-top: 10px;
+}
+.m-left-arrow{
+  margin-left: 20px;
+}
+.m-right-arrow{
+  margin-right: 20px;
+}
+/* End Arrow */
