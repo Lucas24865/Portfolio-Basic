@@ -16,15 +16,29 @@
     <div class="containerDivisions scroll-smooth">
         <div>
             <section class="aboutMe" id="AboutMe">
-                <div class="hiddenAnimation m-5">  
-                    <div class="fit-content d-flex flex-column align-content-around">
-                        <div class="row">                        
+                <div class="m-5">  
+                    <div class="fit-content d-flex flex-column align-content-around position-relative">
+                        <div class="row hiddenAnimationUp mb-2">                                                    
                             <h1>Sobre Mi</h1>
                         </div>                     
-                        <div class="row justify-content-center align-content-center p-5">
-                            <p>Hola! Mi nombre es Lucas Angel y soy estudiante del ultimo año de la tecnicatura universitaria en programación</p>
-                            <p>Me especializo en el desarrollo back-end, principalmente en APIs y en bases de datos SQL pero tengo un perfil Full-stack</p>                        
-                        </div>  
+                        <div class="row justify-content-center align-content-between p-2 fit-content">
+                            <div class="row p-10 justify-content-center align-content-center fit-content hiddenAnimation">
+                                <p>Hola! Mi nombre es Lucas Angel y soy estudiante del ultimo año de la tecnicatura universitaria en programación</p>
+                                <p>Me especializo en el desarrollo back-end, principalmente en APIs y en bases de datos SQL pero tengo un perfil Full-stack</p>                        
+                            </div>              
+                            <div class="row justify-content-center align-content-between position-absolute fit-content me-2">
+                                <div class="row h-50 ">
+                                    <div class="col-6 hiddenAnimationLeft">
+                                        <div class="triangle-xl left-up-rotate "></div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-end h-50 ">
+                                    <div class="col-6 hiddenAnimationRight">
+                                        <div class="triangle-xl"></div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>      
                     </div>               
                 </div>
             </section>
@@ -32,10 +46,10 @@
             <div class="blurred-border-a-s blurred-border-position-y">
                 <div class="d-flex flex-column">
                     <a class="m-down-arrow d-flex justify-content-center w-100" href="#Studies">
-                        <div class="triangle down-rotate"></div>
+                        <div class="triangle down-rotate b-r-5"></div>
                     </a>
                     <a class="m-top-arrow d-flex justify-content-center w-100" href="#AboutMe">
-                        <div class="triangle up-rotate"></div>
+                        <div class="triangle up-rotate b-r-5"></div>
                     </a>
                 </div>
             </div>
@@ -53,43 +67,47 @@
 
         <div class="blurred-border-a-l blurred-border-position-x d-flex align-items-center justify-content-center">
             <a class="d-flex justify-content-center align-items-center h-100" href="#Languages">
-                <div class="triangle right-rotate m-right-arrow"></div>
+                <div class="triangle right-rotate m-right-arrow b-r-5"></div>
             </a>
             <a class="d-flex justify-content-center align-items-center h-100" href="#AboutMe">
-                <div class="triangle left-rotate m-left-arrow"></div>
+                <div class="triangle left-rotate m-left-arrow b-r-5"></div>
             </a>
         </div>
 
         <div class="blurred-border-s-w blurred-border-position-x mt-100 d-flex align-items-center justify-content-center">
             <a class="d-flex justify-content-center align-items-center h-100" href="#Experience">
-                <div class="triangle right-rotate m-right-arrow"></div>
+                <div class="triangle right-rotate m-right-arrow b-r-5"></div>
             </a>
             <a class="d-flex justify-content-center align-items-center h-100" href="#Studies">
-                <div class="triangle left-rotate m-left-arrow"></div>
+                <div class="triangle left-rotate m-left-arrow b-r-5"></div>
             </a>
         </div>
 
         <div>
             <section class="languages" id="Languages">
-                <div class="hiddenAnimation">
-                    <h1>Lenguajes</h1>
+                <div class="hiddenAnimation m-5">
+                    <div class="m-5"> 
+                        <h1>Lenguajes</h1>
+                    </div>
                 </div>
             </section>
 
             <div class="blurred-border-l-w blurred-border-position-y">
                 <div class="d-flex flex-column">
                     <a class="m-down-arrow d-flex justify-content-center w-100" href="#Experience">
-                        <div class="triangle down-rotate"></div>
+                        <div class="triangle down-rotate b-r-5"></div>
                     </a>
                     <a class="m-top-arrow d-flex justify-content-center w-100" href="#Languages">
-                        <div class="triangle up-rotate"></div>
+                        <div class="triangle up-rotate b-r-5"></div>
                     </a>
                 </div>  
             </div>
 
             <section class="work" id="Experience">
-                <div class="hiddenAnimation">
-                    <h1>Experiencia</h1>
+                <div class=" m-5">
+                    <div class="m-5 hiddenAnimationUp"> 
+                        <h1>Experiencia</h1>
+                    </div>
                 </div>
             </section>
         </div>
