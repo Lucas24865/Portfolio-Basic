@@ -180,8 +180,14 @@ section {
   transform: rotate(-45deg);
 }
 
+.right-up-rotate {
+  transform: rotate(-90deg);
+}
 .left-up-rotate {
   transform: rotate(180deg);
+}
+.left-down-rotate {
+  transform: rotate(90deg);
 }
 
 .left-rotate {
