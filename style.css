@@ -269,5 +269,41 @@ section {
   }
 }
 
-
 /* End Arrow */
+/* Languages cards */
+.logo{
+  width: 3.5em;
+}
+.logo-x2{
+  width: 6em;
+}
+.card1{
+  background-color: rgb(197, 144, 218,60%);  
+}
+.card-a{
+  opacity: 0.4;
+  transition: all 1s;
+}
+.card-a:hover{
+  opacity: 1;
+  transition: all 1s;
+}
+.card2{
+  background-color:  rgb(144, 201, 218,.6); 
+}
+.card3{
+  background-color: rgb(169, 218, 144,.6); 
+}
+.card4{
+  background-color: rgb(219, 192, 148,.6); 
+}
+.white{
+  background-color: white;
+  background-size: 50%;
+}
+.opacity-1{
+  opacity: 1;
+}
+.rounded-10px{
+  border-radius: 10px !important;
+}
