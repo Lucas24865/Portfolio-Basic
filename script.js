@@ -24,3 +24,16 @@ hiddenElementsLeft.forEach((el) => observer.observe(el));
 
 const hiddenElementsRight = document.querySelectorAll('.hiddenAnimationRight');
 hiddenElementsRight.forEach((el) => observer.observe(el));
+
+function GoToStudies(){
+    window.location.href = '#Studies';
+}
+function GoToLanguages(){
+    window.location.href = '#Languages';
+}
+function GoToAboutMe(){
+    window.location.href = '#AboutMe';
+}
+function GoToExperience(){
+    window.location.href = '#Experience';
+}
